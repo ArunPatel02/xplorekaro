@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body.overFlow_hidden {
+  overflow: hidden;
+}
+
+:root{
+    --yellow: #FF9019;
+    --white : white;
+}
+
+a{
+  text-decoration: none;
+}
+
+.app_container{
+  max-width: 1140px;
+  position: relative;
+  margin: auto;
+}
+
+.rs-picker-toggle-caret.rs-icon{
+  display: none;
+}
+
+.rs-picker-toggle.rs-btn.rs-btn-subtle{
+  font-size: 1.8rem;
+}
+
+#banner_container{
+  background-image: url(http://gfxpartner.com/Frolic/images/quote-bg01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width : 1140px){
+  .app_container{
+      width: 90vw;
+  }
+}
+
+@media (max-width : 450px){
+  html{
+    font-size: 49.5%;
+  }
+}

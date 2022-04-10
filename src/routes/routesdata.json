@@ -1,0 +1,10 @@
+{
+    "home": "/",
+    "pages": "/pages",
+    "attraction": "/attraction",
+    "checkout": "/checkout",
+    "contact": "/contact",
+    "blog": "/blog",
+    "blog2": "/blog2",
+    "PostYourBlog": "PostYourBlog"
+}

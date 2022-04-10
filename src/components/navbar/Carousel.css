@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+.carousel-inner{
+    width: 100vw;
+    overflow: hidden;
+    transform: translateX(calc((-100vw + 1140px)/2));
+    cursor: grab;
+}
+
+.carousel-item{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 !important;
+}
+
+.slide1{
+    background-image: url("../../asserts/sliderImage/slide01.jpg");
+}
+.slide2{
+    background-image: url("../../asserts/sliderImage/slide02.jpg");
+}
+.slide3{
+    background-image: url("../../asserts/sliderImage/slide03.jpg");
+}
+.slide4{
+    background-image: url("../../asserts/sliderImage/slide04.jpg");
+}
+
+/* .carousel-indicators{
+    overflow: hidden;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+    align-items: flex-end;
+} */
+
+/* .carousel-indicators [data-bs-target]{
+    text-indent: 0px;
+    height: fit-content;
+    color: white;
+    background: transparent;
+    border-left: 1px solid white;
+    padding: 0px 0px 20px 20px;
+    width: 25%;
+    text-align: start;
+    font-size: 1.9rem;
+    opacity: .7;
+} */
+
+/* .carousel-indicators .active{
+    opacity: 1;
+} */
+
+.btn_upper_text{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.btn_main_text{
+    font-size: 2rem;
+    color: white;
+}
+
+.carousel_contenet{
+    width: 1140px;
+    height: 100%;
+    margin: auto !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.carousel_contenet .carousel_inner_contenet{
+    font-size: 7rem;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Lora', serif;
+}
+
+.carousel_contenet .learn_more_btn{
+    margin-top: 40px;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.carousel-inner .slick-slide div{
+    margin: 0px 0px;
+}
+
+.carousel_contenet .learn_more_btn img{
+    height: 45px;
+    margin-right: 20px;
+}
+
+.carousel_contenet .learn_more_btn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media (max-width : 1140px){
+    .carousel-inner{
+        width: 100vw;
+        transform: translateX(-5vw)
+    }
+    .carousel_contenet{
+        width: 95vw;
+    }
+}
+
+@media (max-width : 700px){
+    .carousel_contenet .carousel_inner_contenet{
+        font-size: 5rem;
+    }
+}
+
+@media (max-width : 450px){
+    .carousel-indicators{
+        display: none;
+    }
+}
